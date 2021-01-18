@@ -43,12 +43,53 @@ After that do bundle install to install all required gems and dependences
 ```
 bundle install
 ```
+Database migration
+
+```
+rails db:migrate
+```
 
 You then interract with the program from your console by running
 
 ```
 rails console
 ```
+Adding a new user
+
+```
+u1 = User.new(username: "your username", email: "your email")
+u1.save
+```
+Adding a new post
+```
+p1 = Post.new(title: "your title", body: "body text", user_id: 1)
+p1.save
+```
+Adding a comment
+```
+c1 = Comment.new(commenter: "your name", body: "body text", post_id:1, user_id:1)
+c1.save
+```
+Testing validation
+
+```
+u1.valid?
+```
+```
+p1.valid?
+```
+```
+c1.valid?
+```
+Testing associations
+
+```
+u1.posts.first
+```
+```
+p1.comments.first
+```
+
 ## Contributors
  **Pascal Byabasaija**
 - Linkedin: [Pascal Byabasaija](https://www.linkedin.com/in/pascal-byabasaija/)
