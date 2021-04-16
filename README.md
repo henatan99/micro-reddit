@@ -1,11 +1,11 @@
-# Micro-reddit
+# Micro-Reddit
 
-In this project we built a micro reddit with different models, for users, posts and comments. The main goal for this project was to use active records and database associations.
+In this project, we built a micro Reddit with different models, for users, posts, and comments. The main goal for this project was to use active records and database associations.
 
 # Built with
 
 * Ruby on rails
-* SQlite
+* SQLite
 * rubocop linters
 * Vs code
 
@@ -25,7 +25,7 @@ Before you start using the scraper, you need to be sure that you have Ruby insta
 ruby -v
 ```
 
-You should see your version ofruby.
+You should see your version of Ruby.
 If it's not installed in your system, follow this [guide](https://www.ruby-lang.org/en/documentation/installation/) and it will help you to get it done.
 
 Then you can install rails using this command,
@@ -39,7 +39,7 @@ And you can also check your rails version by typing in your terminal
 rails -version
 ```
 
-After that do bundle install to install all required gems and dependences
+After that do 'bundle install' to install all required gems and dependencies.
 ```
 bundle install
 ```
@@ -49,7 +49,7 @@ Database migration
 rails db:migrate
 ```
 
-You then interract with the program from your console by running
+You then interact with the program from your console by running
 
 ```
 rails console
@@ -101,13 +101,13 @@ p1.comments.first
 - Github: [@henatan99](https://github.com/henatan99)
 - Twitter: [@henatan99](https://twitter.com/henatan99)
 
-## Acknowledment
+## Acknowledgment
 
 - reddit: [reddit](https://www.reddit.com/)
 
 ## Contributions 
 
-Contributions, issues and requests are welcome
+Contributions, issues, and requests are welcome
 
 ## Show support
 
